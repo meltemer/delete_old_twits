@@ -5,7 +5,7 @@ browser = webdriver.Chrome("C:\sel\chromedriver.exe")
 
 browser.get("http://twitter.com/login")
 browser.find_element_by_class_name("js-username-field").send_keys("expectoopatronm")
-browser.find_element_by_class_name("js-password-field").send_keys("13631351")
+browser.find_element_by_class_name("js-password-field").send_keys("password")
 browser.find_element_by_class_name("clearfix").submit()
 browser.get("http://twitter.com/expectoopatronm")
 
